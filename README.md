@@ -4,7 +4,7 @@
 install docker in server
 
 
-cd /data       # this directory is linked to sql container
+mkdir /data       # this directory is linked to sql container
 
 docker network create --driver bridge --subnet  10.1.2.0/24 mybridge     # create your own bridge network #mybridge is network name
 
