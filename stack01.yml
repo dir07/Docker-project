@@ -22,7 +22,7 @@ docker stack deploy -c stack01.yml wordpress-sql
 
 docker service ls
 
-docker stack ls
+docker stack ls  # to see running svcs
 
 public ip manager:8989  wordpress running
 
