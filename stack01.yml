@@ -18,4 +18,10 @@ docker swarm init
 
 
 docker stack deploy -c stack01.yml wordpress-sql
+
+
 docker service ls
+
+public ip manager:8989  wordpress running
+
+public ip worker:8989  word press running
