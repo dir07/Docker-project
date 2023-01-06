@@ -27,3 +27,8 @@ docker stack ls  # to see running svcs
 public ip manager:8989  wordpress running
 
 public ip worker:8989  word press running
+
+ docker stack ps wordpress-sql  # to see deatails of nodes
+ 
+ docker stack rm wordpress-sql # to remove stack
+
