@@ -14,6 +14,10 @@ docker run -dit --name mywp -p 8080:80 --network mybridge wordpress
 
 docker run -dit --name db --network mybridge -e MYSQL_ROOT_PASSWORD=Gh@777 -e MYSQL_DATABASE=mydb -e MYSQL_USER=Ghn -e MYSQL_PASSWORD=Gh@111 -v /data:/var/lib/mysql mysql
 
+publicip:8080  
+
+word press setup page
+
 
 
 wordpress dashboard
