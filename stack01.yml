@@ -1,0 +1,21 @@
+---
+version: '3.8'
+services:
+  db:
+    image: mysql:5
+    environment:
+      MYSQL_ROOT_PASSWORD: yaml123
+  wordpress:
+    image: wordpress
+    ports:
+    - 8989:80
+    deploy:
+      replicas: 3
+---
+before doing this initilize docker swarm & setup worker, manager
+
+docker swarm init 
+
+
+docker stack deploy -c stack01.yml wordpress-sql
+docker service ls
